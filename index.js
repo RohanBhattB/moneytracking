@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }))
 
-mongoose.connect('mongodb+srv://Rohanbhatt:YaJjvARr2VWWmMV7@cluster0.pebawe3.mongodb.net/MoneyList', {
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.pebawe3.mongodb.net/MoneyList', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
